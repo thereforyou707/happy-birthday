@@ -301,10 +301,6 @@ const animationTimeline = () => {
     tl.restart();
   });
 };
-.hat {
-  position: absolute;  /* 或者 relative, 取决于你想如何定位 */
-  left: 30%;  /* 示例，设置横坐标为父容器的50% */
-  top: 50%;   /* 示例，设置纵坐标为父容器的50% */
-}
+
 // Run fetch and animation in sequence
 fetchData();
